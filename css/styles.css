@@ -1,49 +1,182 @@
-/* Your Website Styles */
+/* GLOBAL */
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-
-
-/* Gallery Stying */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
 }
 
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('../fonts/BonvenoCF-Light-webfont.eot');
+    src: url('../fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('../fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: -120px;
-  width: 100%;
-  text-align: center;
+
+i, cite, em, var, address, dfn {
+	font-style: normal;
 }
 
-.gallery .controls img {
-  border: 5px solid #000;
+
+/* WEB STYLES */
+body {
+	background: url("../img/mooning.png");
 }
 
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
+img {
+	float: left;
+	margin-right: 2em;
+	margin-left: 0;
+
 }
+
+.container {
+	margin-top: 6em;
+	border-radius: 2em;
+	background: #f3f3f3;
+	padding: 5em;
+}
+
+em {
+	margin-bottom: 1em;
+	display: block;
+	color: #a8a8a8;
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+h1 {
+	font-family: 'bebas_neueregular';
+	color: #FF5952;
+	font-size: 4em;
+	margin-bottom: 2px;
+	line-height: 1em;
+}
+
+h2, h3 {
+	font-family: 'bonvenocflight';
+	color: #176075;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 100px;
+	width: 100px;
+}
+
+/*Color Palette Formatting*/
+
+.color-1 {
+	background: #f3f3f3;
+}
+.color-2 {
+	background: #FF5952;
+}
+.color-3 {
+	background: #176075;
+}
+
+
+/* Texture/Patterns Formatting */
+
+.pattern-1 {
+	background: url("../img/cream_pixels.png");
+}
+
+.pattern-2 {
+	background: url("../img/knitting250px.png");	
+}
+
+.pattern-3 {
+
+	background: url("../img/mooning.png");
+}
+
+/* Link Styles */
+
+a:link, a:visited {
+	font-family: 'bonvenocflight';
+	text-decoration: none;
+	color: #176075;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Nav Styles */
+nav ul {
+	padding: 0;
+}
+nav li {
+	list-style: none;
+	display: inline;
+	font-family: 'bonvenocflight';
+	text-transform: uppercase;
+}
+
+nav li a:link, nav li a:visited {
+	font-size: 1.5em;
+	color: #000;
+}
+
+nav li a:hover {
+	color: #FF5952;
+	text-decoration: none;
+}
+
+nav li span {
+	font-size: 2em;
+}
+
+
+.hr {
+	border-top: 2px dashed #FF5952;
+	height: 2px
+}
+
 
 
 /* Show Grid */

@@ -5,55 +5,30 @@
   <title>Your Website</title>
 	
  <link rel="icon" href="favicon.ico">	
- 
-  <link rel="stylesheet" href="css/normalize.css">				
-  <link rel="stylesheet" href="css/gallery.css">	 
-  <link rel="stylesheet" href="css/styles.css">	
+ <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  
+  <link rel="stylesheet" href="css/gridpak.css">					 
+  
 	
 </head>
 <body>
 	
-	<div class="container showgrid">
+	<div class="container span_12">
 		
 		<!-- Your Content -->
-		<div class="gallery items-4">
-			  <div id="item-1" class="control-operator"></div>
-			  <div id="item-2" class="control-operator"></div>
-			  <div id="item-3" class="control-operator"></div>
-			  <div id="item-4" class="control-operator"></div>
+			<div class="lightbox">
+			<a class="lightbox" href="#goofy">
+	   			<img src="http://placekitten.com/200/200"/>
+			</a>
+			<div>
 
-			  <figure class="item">
-			    <img src="img/1.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="img/2.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="img/3.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="img/4.jpg" alt="">
-			  </figure>
-
-			  <div class="controls">
-			    <a href="#item-1" class="control-button">
-			    	<img src="img/1-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-2" class="control-button">
-			    	<img src="img/2-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-3" class="control-button">
-					<img src="img/3-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-4" class="control-button">
-					<img src="img/4-thumb.jpg" alt="">
-			    </a>
-			  </div>
+			<div class="lightbox-target" id="goofy">
+	   			<img src="http://placekitten.com/200/200"/>
+	   			<a class="lightbox-close" href="#"></a>
 			</div>
 
+		
 		<!-- Clearfix -->
 		<div class="clear"></div>
 
