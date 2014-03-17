@@ -34,7 +34,7 @@ body {
 	background: url("../img/mooning.png");
 }
 
-img {
+.logo {
 	float: left;
 	margin-right: 2em;
 	margin-left: 0;
@@ -89,52 +89,13 @@ p {
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
-}
-
-.color-1,
-.color-2,
-.color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
-	border: 1px solid #000;
-	float: left;
-	margin: 0 10px;
-	height: 100px;
-	width: 100px;
-}
-
-/*Color Palette Formatting*/
-
-.color-1 {
+	margin: 0px 0;
 	background: #f3f3f3;
-}
-.color-2 {
-	background: #FF5952;
-}
-.color-3 {
-	background: #176075;
-}
-
-
-/* Texture/Patterns Formatting */
-
-.pattern-1 {
-	background: url("../img/cream_pixels.png");
-}
-
-.pattern-2 {
-	background: url("../img/knitting250px.png");	
-}
-
-.pattern-3 {
-
-	background: url("../img/mooning.png");
+	display: inline-block;
 }
 
 /* Link Styles */
-
+/*
 a:link, a:visited {
 	font-family: 'bonvenocflight';
 	text-decoration: none;
@@ -145,8 +106,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+*/
 
 /* Nav Styles */
+/*
 nav ul {
 	padding: 0;
 }
@@ -170,7 +133,7 @@ nav li a:hover {
 nav li span {
 	font-size: 2em;
 }
-
+*/
 
 .hr {
 	border-top: 2px dashed #FF5952;
